@@ -3,3 +3,35 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    position:absolute; 
+    height:100%; 
+    width:100%;
+}
+.head-content {
+    gap: 27px;
+}
+.head-content h1{
+    width: 708px;
+    height: 288px;
+    margin-top: 197px;
+    margin-right: 27px;
+    margin-bottom: 365px;
+    margin-left: 240px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.head-content img {    
+    margin-top: 50px;
+    margin-right: 240px;
+    width: 635px;
+    height: 800px;
+}
