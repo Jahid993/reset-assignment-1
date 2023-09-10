@@ -19,7 +19,7 @@ header {
     height: 288px;
     margin-top: 197px;
     margin-right: 27px;
-    margin-bottom: 365px;
+    /* margin-bottom: 365px; */
     margin-left: 240px;
     color: #272727;
     font-family: Lato;
@@ -29,9 +29,35 @@ header {
     line-height: normal;
 }
 
+.head-content p {
+    margin-top: 32px;
+    margin-right: 171px;
+    /* margin-bottom: 243px; */
+    margin-left: 240px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
 .head-content img {    
     margin-top: 50px;
     margin-right: 240px;
     width: 635px;
     height: 800px;
+}
+
+.btn-primary{
+    margin-top: 32px;
+    margin-right: 628px;
+    margin-bottom: 147px;
+    margin-left: 240px;
+    border-radius: 8px;
+    background:  #E55473;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+ 
 }
